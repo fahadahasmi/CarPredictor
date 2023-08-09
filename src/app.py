@@ -9,7 +9,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-model = load_model('Model\model.h5')
+model = load_model('Model/model.h5')
 
 
 
